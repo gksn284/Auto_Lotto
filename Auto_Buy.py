@@ -1,6 +1,6 @@
+import telegram
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
-import telegram
 
 def Buy():
     ID = 'gksn284' # 개인정보
