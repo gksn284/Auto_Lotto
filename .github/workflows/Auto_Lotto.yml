@@ -1,7 +1,5 @@
 name: Auto_Lotto
 
-on: [push]
-
 on:
   schedule:
     - cron: 30 9 * * 1
