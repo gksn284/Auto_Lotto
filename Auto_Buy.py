@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
 def Buy():
-    ID = 'gksn284' # 개인정보
-    PW = 'qzec2580@'
+    ID = '아이디 입력' # 개인정보
+    PW = ''
 
     # 로또 로그인 접속
     driver = webdriver.Chrome('./chromedriver')
