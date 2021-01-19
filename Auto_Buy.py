@@ -4,7 +4,7 @@ from selenium.webdriver.support.select import Select
 
 def Buy():
     ID = '아이디 입력' # 개인정보
-    PW = ''
+    PW = '비밀번호 입력'
 
     # 로또 로그인 접속
     driver = webdriver.Chrome('./chromedriver')
