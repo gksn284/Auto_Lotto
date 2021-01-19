@@ -1,10 +1,10 @@
 name: Auto_Lotto
 
-on:
-  schedule:
-    - cron: 30 9 * * 1
-  push:
-    branches: [ main ]
+#on:
+#  schedule:
+#    - cron: 30 9 * * 1
+#  push:
+#    branches: [ main ]
 
 jobs:
   build:
