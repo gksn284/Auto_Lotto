@@ -96,10 +96,10 @@ def Buy():
 
 
 def Bot(x):                                    #봇을 통해 보낼 메세지를 x에 입력
-    tok = "1534787741:AAHmXtFYOLHC6ybK3jevVT6WkoQq4v-Wsm4"
+    tok = "token을 입력"
     bot = telegram.Bot(token = tok)
 
-    bot.send_message(1467011786, x)
+    bot.send_message("채팅방 좌표 입력", x)
     return 0
 
 Buy()
